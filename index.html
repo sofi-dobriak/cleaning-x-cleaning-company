@@ -5,8 +5,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cleaning X</title>
+
+    <!-- Normalize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css" />
-    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -19,29 +27,29 @@
 
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Pages</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a class="nav-item" href="#">Home</a></li>
+                <li><a class="nav-item" href="#">About</a></li>
+                <li><a class="nav-item" href="#">Services</a></li>
+                <li><a class="nav-item" href="#">Pages</a></li>
+                <li><a class="nav-item" href="#">Contact</a></li>
             </ul>
         </nav>
-        <button type="button">Get a free quote</button>
+        <button class="btn nav-btn" type="button">Get a free quote</button>
     </header>
 
     <main>
         <!-- Hero section -->
         <section>
-            <h1>Quality cleaning for your home</h1>
+            <h1 class="hero-title">Quality cleaning for your home</h1>
             <p>
                 Condimentum mauris sit cursus amet id non neque pharetra nulla ornare
                 sed facilisis senectus dapibus nibh ultrices eget suscipit aliquet et
                 nulla magna lacus penatibus.
             </p>
-            <button type="button">Get a free quote</button>
-            <address>
-                <p>Call us now</p>
-                <a href="tel:4145672109">(414) 567 - 2109
+            <button class="btn hero-btn" type="button">Get a free quote</button>
+            <address class="addres">
+                <p class="hero-tel-text">Call us now</p>
+                <a class="hero-tel-num" href="tel:4145672109">(414) 567 - 2109
                     <img src="./images/tel.png" alt="telephone" width="72" height="72" />
                 </a>
             </address>
@@ -50,8 +58,8 @@
 
         <!-- How our service works -->
         <section>
-            <h2>How our service works?</h2>
-            <p>
+            <h2 class="service-title">How our service works?</h2>
+            <p class="service-text">
                 Sagittis nibh scelerisque vitae eget vulputate sem elementum sed neque
                 nisi felis non ultrices massa id egestas quam velit pretium nu.
             </p>
@@ -59,8 +67,8 @@
                 <!-- Schedule online -->
                 <li>
                     <img src="./images/service-schedule-online.png" alt="Calendar" width="240" height="240" />
-                    <h3>1. Schedule online</h3>
-                    <p>
+                    <h3 class="service-sub-title">1. Schedule online</h3>
+                    <p class="service-text">
                         Sagittis nibh scelerisque vitae egetolment vulputate sem elementum
                         sed n.
                     </p>
@@ -68,8 +76,8 @@
                 <!-- Pay online easily -->
                 <li>
                     <img src="./images/service-pay-online-easily.png" alt="Cards" width="270" height="240" />
-                    <h3>2. Pay online easily</h3>
-                    <p>
+                    <h3 class="service-sub-title">2. Pay online easily</h3>
+                    <p class="service-text">
                         Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida amet
                         at nunc.
                     </p>
@@ -78,21 +86,21 @@
                 <li>
                     <img src="./images/service-get-your-house-cleaned.png" alt="Vacuum cleaner and bucket with water"
                         width="258" height="240" />
-                    <h3>3. Get your house cleaned</h3>
-                    <p>
+                    <h3 class="service-sub-title">3. Get your house cleaned</h3>
+                    <p class="service-text">
                         Nunc maecenas sollicitudin metus tellus mattis sed porttitor
                         cursus eleifend.
                     </p>
                 </li>
             </ul>
-            <button type="button">Get a free quote</button>
-            <button type="button">Explore services</button>
+            <button class="btn service-btn" type="button">Get a free quote</button>
+            <button class="explore-service-btn" type="button">Explore services</button>
         </section>
 
         <!-- Statistics -->
         <section>
-            <h2>Our cleaning services have no comparison</h2>
-            <p>
+            <h2 class="statistic-title">Our cleaning services have no comparison</h2>
+            <p class="statistic-text">
                 Lobortis mattis odio leo eget mauris met aliquet semper molestie
                 sollicitudin congue massa mauris lectus vitae cras viverra gravida
                 sapien.
@@ -100,48 +108,49 @@
             <ul>
                 <li>
                     <img src="./images/clients.png" alt="Hearts" width="72" height="72" />
-                    <p>clients</p>
-                    <span>3,480+</span>
+                    <p class="statistic-desc">clients</p>
+                    <span class="statistic-num">3,480+</span>
                 </li>
                 <li>
                     <img src="./images/jobs-done.png" alt="Check mark" width="72" height="72" />
-                    <p>Jobs done</p>
-                    <span>12,540+</span>
+                    <p class="statistic-desc">Jobs done</p>
+                    <span class="statistic-num">12,540+</span>
                 </li>
                 <li>
                     <img src="./images/employees.png" alt="Peson" width="72" height="72" />
-                    <p>Employees</p>
-                    <span>100+</span>
+                    <p class="statistic-desc">Employees</p>
+                    <span class="statistic-num">100+</span>
                 </li>
             </ul>
-            <img src="./images/play-video.png" alt="Video of the cleaning process" width="1012" height="570" />
+            <img class="statistic-img" src="./images/play-video.png" alt="Video of the cleaning process" width="1012"
+                height="570" />
         </section>
 
         <!-- Cleaning locations -->
         <section>
-            <h3>Take a look at our professional services</h3>
-            <button type="button">Explore services</button>
+            <h3 class="location-title">Take a look at our professional services</h3>
+            <button class="explore-service-btn locations-btn" type="button">Explore services</button>
             <ul>
                 <li>
                     <img src="./images/house-cleaning.png" alt="House cleaning" width="220" height="190" />
-                    <h3>House cleaning</h3>
-                    <p>
+                    <h3 class="location-sub-title">House cleaning</h3>
+                    <p class="location-text">
                         Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                         dalaracc lacus vel facilisis volutpat est.
                     </p>
                 </li>
                 <li>
                     <img src="./images/office-cleaning.png" alt="Office cleaning" width="220" height="224" />
-                    <h3>Office cleaning</h3>
-                    <p>
+                    <h3 class="location-sub-title">Office cleaning</h3>
+                    <p class="location-text">
                         Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                         dalaracc lacus vel facilisis volutpat est.
                     </p>
                 </li>
                 <li>
                     <img src="./images/industrial-cleaning.png" alt="Industrial cleaning" width="250" height="200" />
-                    <h3>Industrial cleaning</h3>
-                    <p>
+                    <h3 class="location-sub-title">Industrial cleaning</h3>
+                    <p class="location-text">
                         Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                         dalaracc lacus vel facilisis volutpat est.
                     </p>
@@ -150,18 +159,18 @@
         </section>
 
         <!-- Covid-19 sanitization -->
-        <section>
+        <section class="covid">
             <img src="./images/clean-covid-19.png" alt="Covid-19 sanitization" width="518" height="676" />
-            <p>Covid-19 sanitization</p>
-            <h2>We follow guidelines to keep you safe from the COVID-19 virus</h2>
-            <p>
+            <p class="covid-pre-text">Covid-19 sanitization</p>
+            <h2 class="covid-title">We follow guidelines to keep you safe from the COVID-19 virus</h2>
+            <p class="covid-text">
                 Lobortis mattis odio leo eget mauris met aliquet semper molestie
                 sollicitudin congue massa mauris lectus.
             </p>
-            <button>Get a free quote</button>
-            <address>
-                <p>Call us now</p>
-                <a href="tel:4145672109">(414) 567 - 2109
+            <button class="btn covid-btn">Get a free quote</button>
+            <address class="addres">
+                <p class="contact-text">Call us now</p>
+                <a class="contact-tel" href="tel:4145672109">(414) 567 - 2109
                     <img src="./images/tel.png" alt="telephone" width="72" height="72" />
                 </a>
             </address>
@@ -170,90 +179,102 @@
         <!-- Cleaning areas of the room -->
         <section>
             <img src="./images/house-rooms.png" alt="House" width="640" height="680" />
-            <h2>We cover all areas of your home or office</h2>
-            <p>
+            <h2 class="areas-title">We cover all areas of your home or office</h2>
+            <p class="areas-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                 minim veniam.
             </p>
             <ul>
-                <li>
-                    <img src="./images/check-mark.png" alt="Check mark" width="26" height="26" />Bathrooms
+                <li class="areas-rooms">
+                    <img class="areas-rooms" src="./images/check-mark.png" alt="Check mark" width="26"
+                        height="26" />Bathrooms
                 </li>
-                <li>
+                <li class="areas-rooms">
                     <img src="./images/check-mark.png" alt="Check mark" width="26" height="26" />Kitchens
                 </li>
-                <li>
+                <li class="areas-rooms">
                     <img src="./images/check-mark.png" alt="Check mark" width="26" height="26" />Living Rooms
                 </li>
-                <li>
+                <li class="areas-rooms">
                     <img src="./images/check-mark.png" alt="Check mark" width="26" height="26" />Carpets
                 </li>
-                <li>
+                <li class="areas-rooms">
                     <img src="./images/check-mark.png" alt="Check mark" width="26" height="26" />Bedrooms
                 </li>
-                <li>
+                <li class="areas-rooms">
                     <img src="./images/check-mark.png" alt="Check mark" width="26" height="26" />Offices
                 </li>
-                <li>
+                <li class="areas-rooms">
                     <img src="./images/check-mark.png" alt="Check mark" width="26" height="26" />Businesses
                 </li>
-                <li>
+                <li class="areas-rooms">
                     <img src="./images/check-mark.png" alt="Check mark" width="26" height="26" />Windows
                 </li>
             </ul>
-            <button type="button">Get a free quote</button>
+            <button class="btn areas-btn" type="button">Get a free quote</button>
         </section>
 
         <!-- Our differences -->
         <section>
-            <h2>What makes us different?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            <h2 class="differences-title">What makes us different?</h2>
+            <p class="differences-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et
                 dolore magna
                 aliqua. Ut enim ad minim veniam.</p>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit atem accusantium doloremque laudantiu sed ut.</p>
+            <p class="differences-sub-text">Sed ut perspiciatis unde omnis iste natus error sit atem accusantium
+                doloremque laudantiu sed ut.</p>
             <ul>
                 <li>
-                    <span>10<span></span>+</span>
-                    <p></p>
+                    <span class="differences-num">10</span><span class="differences-plus">+</span>
+                    <p class="differences-desc">Years</p>
                 </li>
                 <li>
-                    <span>5k<span></span>+</span>
-                    <p></p>
+                    <span class="differences-num">5k</span><span class="differences-plus">+</span>
+                    <p class="differences-desc">Clients</p>
                 </li>
                 <li>
-                    <span>20k<span></span>+</span>
-                    <p></p>
+                    <span class="differences-num">20k</span><span class="differences-plus">+</span>
+                    <p class="differences-desc">Jobs done</p>
                 </li>
             </ul>
-            <button type="button">Get a free quote</button>
+            <button class="btn differences-btn" type="button">Get a free quote</button>
             <img src="./images/our-differences.png" alt="A guy cleans the floor" width="686" height="589">
         </section>
 
         <!-- Articles & resources -->
         <section>
-            <h2>Articles and resources</h2>
+            <h2 class="article-title">Articles and resources</h2>
             <p>Lobortis mattis odio leo eget mauris met aliquet semper molestie sollicitudin congue massa mauris lectus.
             </p>
-            <button type="button">Get a free quote</button>
-            <button type="button">Browse articles</button>
+            <button class="btn article-btn" type="button">Get a free quote</button>
+            <button class="brows-btn" type="button">Browse articles</button>
             <ul>
                 <li>
+
                     <img src="./images/article-vacuum-cleaners.png" alt="Vacuum cleaner" width="596" height="366">
-                    <h3>8 best vacuum cleaners to clean any mess for your home in 2022</h3>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo quis odio sit sit ac port titor
-                        sit males.</p>
-                    <p>Jan 28, 2022</p>
-                    <img src="./images/rectangle.png" alt="Rectangle" width="50" height="50">
+                    <article class="bgc">
+                        <h3 class="article-sub-title">8 best vacuum cleaners to clean any mess for your home in 2022
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo quis odio sit sit ac port
+                            titor
+                            sit males.</p>
+                        <p class="article-date">Jan 28, 2022</p>
+                        <img src="./images/rectangle.png" alt="Rectangle" width="50" height="50">
+                    </article>
                 </li>
                 <li>
+
                     <img src="./images/article-disinfect-electronics.png" alt="A girl disinfects the phone" width="596"
                         height="366">
-                    <h3>How to properly disinfect your phone and other electronics</h3>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo quis odio sit sit ac port titor
-                        sit males.</p>
-                    <p>Feb 1, 2022</p>
-                    <img src="./images/rectangle.png" alt="Rectangle" width="50" height="50">
+                    <article class="bgc">
+                        <h3 class="article-sub-title">How to properly disinfect your phone and other electronics</h3>
+                        <p>Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo quis odio sit sit ac port
+                            titor
+                            sit males.</p>
+                        <p class="article-date">Feb 1, 2022</p>
+                        <img src="./images/rectangle.png" alt="Rectangle" width="50" height="50">
+                    </article>
                 </li>
             </ul>
         </section>
