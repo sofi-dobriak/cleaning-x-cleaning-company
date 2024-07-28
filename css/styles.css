@@ -1,3 +1,425 @@
-li{
-    list-style-type: none;
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.42886;
+    color: #6e7191;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+.btn:hover,
+.btn:active {
+    color: #fff;
+    background-color: #05C168;
+    cursor: pointer;
+}
+
+
+/* Navigation */
+
+.nav-item {
+    font-size: 18px;
+    line-height: 1.667;
+    color: #211f54;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: #11845B;
+    text-decoration: underline;
+}
+
+.nav-btn {
+    font-size: 16px;
+    line-height: 1.125;
+    text-align: center;
+    color: #fff;
+    border-radius: 14px;
+    background: #0075ff;
+    padding: 17px 24px;
+    border: none;
+}
+
+/*  Hero section */
+
+.hero-title {
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 1.088;
+    color: #211f54;
+}
+
+.hero-btn {
+    font-size: 18px;
+    line-height: 1.11111;
+    text-align: center;
+    color: #fff;
+    border-radius: 14px;
+    background: #0075ff;
+    padding: 26px 38px;
+    border: none;
+}
+
+.hero-tel-text {
+    font-size: 16px;
+    line-height: 1.125;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #6e7191;
+
+}
+
+.hero-tel-num {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.286;
+    color: #211f54;
+}
+
+.hero-tel-num:hover,
+.hero-tel-num:focus {
+    color: #11845b
+}
+
+/* How our service works */
+
+.service-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.208;
+    text-align: center;
+    color: #211f54;
+}
+
+.service-sub-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.286;
+    text-align: center;
+    color: #211f54;
+}
+
+.service-text {
+    text-align: center;
+}
+
+.service-btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11111;
+    text-align: center;
+    color: #fff;
+    border-radius: 14px;
+    background: #0075ff;
+    border: none;
+    padding: 26px 38px;
+}
+
+.explore-service-btn {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.111;
+    text-align: center;
+    color: #11845b;
+    border: 1px solid #eff0f6;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px 0 rgba(20, 20, 43, 0.04);
+    background: #fff;
+    padding: 26px 38px;
+}
+
+.explore-service-btn:hover,
+.explore-service-btn:focus {
+    color: #093d2b;
+    border: 1px solid #05C168;
+    cursor: pointer;
+}
+
+/* Statistics */
+
+.statistic-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.208;
+    text-align: center;
+    color: #211f54;
+}
+
+.statistic-text {
+    text-align: center;
+}
+
+.statistic-desc {
+    font-size: 16px;
+    line-height: 1.125;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #6e7191;
+}
+
+.statistic-num {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.286;
+    color: #211f54;
+}
+
+.statistic-img {
+    cursor: pointer;
+}
+
+/* Cleaning locations */
+
+.location-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.208;
+    color: #211f54;
+}
+
+.locations-btn {
+    color: #211f54;
+}
+
+.location-sub-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.417;
+    text-align: center;
+    color: #211f54;
+}
+
+.location-text {
+    text-align: center;
+}
+
+/* Covid-19 sanitization */
+
+.covid {
+    border-radius: 24px;
+    background: #211f54;
+}
+
+.covid-pre-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.125;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.covid-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.208;
+    color: #fff;
+}
+
+.covid-text {
+    color: #fff;
+}
+
+.covid-btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11111;
+    text-align: center;
+    color: #fff;
+    border-radius: 14px;
+    background: #0075ff;
+    border: none;
+    padding: 26px 38px;
+}
+
+.contact-text {
+    font-size: 16px;
+    line-height: 1.125;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.contact-tel {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.286;
+    color: #fff;
+}
+
+.contact-tel:hover,
+.contact-tel:focus {
+    color: #6ff6b7;
+}
+
+/* Cleaning areas of the room */
+
+.areas-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.208;
+    color: #211f54;
+}
+
+.areas-text {
+    font-size: 18px;
+    line-height: 1.667;
+    color: #6e7191;
+}
+
+.areas-rooms {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.111;
+    color: #211f54;
+}
+
+.areas-btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11111;
+    text-align: center;
+    color: #fff;
+    border-radius: 14px;
+    background: #0075ff;
+    border: none;
+    padding: 26px 38px;
+}
+
+/* Our differences */
+
+.differences-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.208;
+    color: #211f54;
+}
+
+.differences-text {
+    font-size: 18px;
+    line-height: 1.667;
+}
+
+.differences-sub-text {
+    font-size: 12px;
+    line-height: 2.5005;
+}
+
+.differences-num {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.222;
+    color: #211f54;
+}
+
+.differences-plus {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 1.222;
+    color: #0075ff;
+}
+
+.differences-desc {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.333;
+    color: #6e7191;
+}
+
+.differences-btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11111;
+    text-align: center;
+    color: #fff;
+    border-radius: 14px;
+    background: #0075ff;
+    border: none;
+    padding: 26px 38px;
+}
+
+/* Articles & resources */
+
+.article-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.208;
+    color: #211f54;
+}
+
+.article-btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11111;
+    text-align: center;
+    color: #fff;
+    background: #0075ff;
+    border-radius: 14px;
+    border: none;
+    padding: 26px 38px;
+}
+
+.brows-btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.111;
+    text-align: center;
+    color: #211f54;
+    border: 1px solid #eff0f6;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px 0 rgba(20, 20, 43, 0.04);
+    background: #fff;
+    padding: 26px 38px;
+}
+
+.brows-btn:hover,
+.brows:focus {
+    color: #093d2b;
+    border: 1px solid #05C168;
+    cursor: pointer;
+}
+
+.bgc {
+    border: 1px solid #eff0f6;
+    border-radius: 24px;
+    box-shadow: 0 2px 6px 0 rgba(20, 20, 43, 0.04);
+    background: #fff;
+}
+
+.article-sub-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.417;
+    color: #211f54;
+}
+
+.article-date {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.111;
+    color: #211f54;
+}
+
+/* Order */
+
