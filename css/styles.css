@@ -28,8 +28,19 @@ address {
     font-style: normal;
 }
 
+.btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11111;
+    text-align: center;
+    color: #fff;
+    background: #0075ff;
+    border-radius: 14px;
+    border: none;
+}
+
 .btn:hover,
-.btn:active {
+.btn:focus {
     color: #fff;
     background-color: #05C168;
     cursor: pointer;
@@ -54,11 +65,7 @@ address {
     font-size: 16px;
     line-height: 1.125;
     text-align: center;
-    color: #fff;
-    border-radius: 14px;
-    background: #0075ff;
     padding: 17px 24px;
-    border: none;
 }
 
 /*  Hero section */
@@ -71,14 +78,7 @@ address {
 }
 
 .hero-btn {
-    font-size: 18px;
-    line-height: 1.11111;
-    text-align: center;
-    color: #fff;
-    border-radius: 14px;
-    background: #0075ff;
     padding: 26px 38px;
-    border: none;
 }
 
 .hero-tel-text {
@@ -125,14 +125,6 @@ address {
 }
 
 .service-btn {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.11111;
-    text-align: center;
-    color: #fff;
-    border-radius: 14px;
-    background: #0075ff;
-    border: none;
     padding: 26px 38px;
 }
 
@@ -242,14 +234,6 @@ address {
 }
 
 .covid-btn {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.11111;
-    text-align: center;
-    color: #fff;
-    border-radius: 14px;
-    background: #0075ff;
-    border: none;
     padding: 26px 38px;
 }
 
@@ -270,7 +254,7 @@ address {
 
 .contact-tel:hover,
 .contact-tel:focus {
-    color: #6ff6b7;
+    color: #05C168;
 }
 
 /* Cleaning areas of the room */
@@ -296,14 +280,6 @@ address {
 }
 
 .areas-btn {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.11111;
-    text-align: center;
-    color: #fff;
-    border-radius: 14px;
-    background: #0075ff;
-    border: none;
     padding: 26px 38px;
 }
 
@@ -348,14 +324,6 @@ address {
 }
 
 .differences-btn {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.11111;
-    text-align: center;
-    color: #fff;
-    border-radius: 14px;
-    background: #0075ff;
-    border: none;
     padding: 26px 38px;
 }
 
@@ -369,14 +337,6 @@ address {
 }
 
 .article-btn {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.11111;
-    text-align: center;
-    color: #fff;
-    background: #0075ff;
-    border-radius: 14px;
-    border: none;
     padding: 26px 38px;
 }
 
@@ -394,7 +354,7 @@ address {
 }
 
 .brows-btn:hover,
-.brows:focus {
+.brows-btn:focus {
     color: #093d2b;
     border: 1px solid #05C168;
     cursor: pointer;
@@ -423,3 +383,153 @@ address {
 
 /* Order */
 
+.order-bgc {
+    width: 100%;
+    height: 638px;
+    background-color: #f7f9fc;
+}
+
+.order-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.208;
+    color: #211f54;
+}
+
+.order-address-text {
+    font-size: 16px;
+    line-height: 1.125;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #6e7191;
+}
+
+.order-address-tel {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.286;
+    color: #211f54;
+}
+
+.order-address-tel:hover,
+.order-address-tel:focus {
+    color: #11845b;
+}
+
+.order-sub-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.286;
+    color: #211f54;
+}
+
+.order-brows-btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.111;
+    text-align: center;
+    color: #211f54;
+    border: 1px solid #eff0f6;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px 0 rgba(20, 20, 43, 0.04);
+    background: #fff;
+    padding: 26px 39px;
+}
+
+.order-brows-btn:hover,
+.order-brows-btn:focus {
+    color: #093d2b;
+    border: 1px solid #05C168;
+    cursor: pointer;
+}
+
+.order-form-bgc {
+    border: 1px solid #eff0f6;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px 0 rgba(20, 20, 43, 0.04);
+    background: #fff;
+}
+
+.order-form-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.667;
+    color: #211f54;
+}
+
+.order-from-field {
+    border: 1px solid #eff0f6;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px 0 rgba(20, 20, 43, 0.08);
+    background: #fff;
+}
+
+.order-form-btn {
+    padding: 26px 20px;
+}
+
+/* Footer */
+
+/* Contacts */
+
+.footer-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.286;
+    color: #211f54;
+}
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.1;
+    color: #211f54;
+}
+
+.contacts-link {
+    color: #6e7191;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #11845b;
+    text-decoration: underline;
+}
+
+.hours-day {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.111;
+    color: #211f54;
+}
+
+.tel {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.286;
+    color: #0075ff;
+}
+
+.tel:hover,
+.tel:focus {
+    color: #1baf7b;
+}
+
+.footer-btn {
+    padding: 26px 38px;
+}
+
+/* .licenses-text {
+    text-align: right;
+} */
+
+.licenses-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0075ff;
+}
+
+.licenses-link:hover,
+.licenses-link:focus {
+    color: #1baf7b;
+}
