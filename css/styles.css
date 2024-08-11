@@ -54,13 +54,14 @@ address {
   background: #0075ff;
   border-radius: 14px;
   border: none;
+  cursor: pointer;
+  transition: color .3s, background-color .3s;
 }
 
 .btn:hover,
 .btn:focus {
   color: #fff;
   background-color: #05c168;
-  cursor: pointer;
 }
 
 /* Navigation */
@@ -91,12 +92,12 @@ address {
   font-size: 18px;
   line-height: 1.667;
   color: #211f54;
+  transition: color .3s;
 }
 
 .nav-item:hover,
 .nav-item:focus {
   color: #11845b;
-  text-decoration: underline;
 }
 
 .nav-card {
@@ -170,6 +171,7 @@ address {
   font-size: 28px;
   line-height: 1.286;
   color: #211f54;
+  transition: color .3s;
 }
 
 .hero-tel-num:hover,
@@ -249,13 +251,14 @@ address {
   box-shadow: 0 4px 10px 0 rgba(20, 20, 43, 0.04);
   background: #fff;
   padding: 26px 38px;
+  cursor: pointer;
+  transition: color 0.3s, border-color .3s;
 }
 
 .explore-service-btn:hover,
 .explore-service-btn:focus {
   color: #093d2b;
-  border: 1px solid #05c168;
-  cursor: pointer;
+  border-color: #05c168;
 }
 
 /* Statistics */
@@ -446,6 +449,7 @@ address {
   font-size: 28px;
   line-height: 1.286;
   color: #fff;
+  transition: color .3s;
 }
 
 .contact-tel:hover,
@@ -477,7 +481,7 @@ address {
   max-height: 200px;
 }
 
-li > img {
+li>img {
   margin-right: 8px;
 }
 
@@ -644,13 +648,14 @@ li > img {
   box-shadow: 0 4px 10px 0 rgba(20, 20, 43, 0.04);
   background: #fff;
   padding: 26px 38px;
+  cursor: pointer;
+  transition: color .3s, border-color .3s;
 }
 
 .brows-btn:hover,
 .brows-btn:focus {
   color: #093d2b;
-  border: 1px solid #05c168;
-  cursor: pointer;
+  border-color: #05c168;
 }
 
 .bgc {
@@ -730,12 +735,14 @@ li > img {
   font-size: 28px;
   line-height: 1.286;
   color: #211f54;
+  transition: color .3s;
 }
 
 .order-address-tel:hover,
 .order-address-tel:focus {
   color: #11845b;
 }
+
 .order-sub-title {
   font-weight: 700;
   font-size: 28px;
@@ -759,30 +766,72 @@ li > img {
   box-shadow: 0 4px 10px 0 rgba(20, 20, 43, 0.04);
   background: #fff;
   padding: 26px 39px;
+  cursor: pointer;
+  transition: color .3s, border-color .3s;
 }
 
 .order-brows-btn:hover,
 .order-brows-btn:focus {
   color: #093d2b;
-  border: 1px solid #05c168;
-  cursor: pointer;
+  border-color: #05c168;
 }
 
+/* Form */
+
 .order-form-bgc {
+  width: 670px;
+  height: 908px;
+  padding: 84px 62px;
   border: 1px solid #eff0f6;
   border-radius: 16px;
   box-shadow: 0 2px 6px 0 rgba(20, 20, 43, 0.04);
   background: #fff;
 }
 
-.order-form-text {
+.form-block {
+  display: block;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.form-group input {
+  width: 100%;
+  /* Два поля у рядок */
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.full-width textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 42px;
+  box-sizing: border-box;
+  height: 144px;
+
+  border: 1px solid #eff0f6;
+  border-radius: 22px;
+  box-shadow: 0 2px 7px 0 rgba(20, 20, 43, 0.08);
+  background: #fff;
+  resize: none;
+}
+
+.order-form-label {
+  display: block;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.667;
   color: #211f54;
+  margin-bottom: 12px;
 }
 
-.order-from-field {
+.order-form-input {
+  width: 260px;
+  height: 72px;
+  width: 50%;
   border: 1px solid #eff0f6;
   border-radius: 16px;
   box-shadow: 0 2px 12px 0 rgba(20, 20, 43, 0.08);
@@ -791,6 +840,7 @@ li > img {
 
 .order-form-btn {
   padding: 26px 20px;
+  width: 220px;
 }
 
 /* Footer */
@@ -854,12 +904,12 @@ li > img {
 
 .contacts-link {
   color: #6e7191;
+  transition: color .3s;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
   color: #11845b;
-  text-decoration: underline;
 }
 
 .hours-day {
@@ -879,6 +929,7 @@ li > img {
   font-size: 28px;
   line-height: 1.286;
   color: #0075ff;
+  transition: color .3s;
 }
 
 .tel:hover,
@@ -898,6 +949,7 @@ li > img {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #0075ff;
+  transition: color .3s;
 }
 
 .licenses-link:hover,
