@@ -1,716 +1,564 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cleaning X</title>
 
-    <!-- Normalize -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cleaning X</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css" />
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 
-  <body>
-    <header>
-      <!-- Navigation -->
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <!-- Navigation -->
+    <div class="container">
+      <div class="nav-container">
+        <a href="./index.html">
+          <img class="logo" src="./images/logo.svg" alt="Logo Cleaning X" width="172" height="42" />
+        </a>
+
+        <nav>
+          <ul class="nav-list-container">
+            <li><a class="nav-item" href="#home">Home</a></li>
+            <li><a class="nav-item" href="#about">About</a></li>
+            <li><a class="nav-item" href="#services">Services</a></li>
+            <li><a class="nav-item" href="#pages">Pages</a></li>
+            <li><a class="nav-item" href="#contacts">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-btn">
+          <p class="nav-card card-gray">Cart (0)</p>
+          <button class="btn nav-btn" type="button">Get a free quote</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section id="home">
       <div class="container">
-        <div class="nav-container">
-          <a href="./index.html">
-            <img
-              class="logo"
-              src="./images/logo.svg"
-              alt="Logo Cleaning X"
-              width="172"
-              height="42"
-            />
-          </a>
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1 class="hero-title">Quality cleaning for your home</h1>
+            <p class="hero-text">
+              Condimentum mauris sit cursus amet id non neque pharetra nulla
+              ornare sed facilisis senectus dapibus nibh ultrices eget
+              suscipit aliquet et nulla magna lacus penatibus.
+            </p>
+            <div class="address-container">
+              <button class="btn hero-btn" type="button">
+                Get a free quote
+              </button>
+              <img src="./images/tel.svg" alt="telephone" width="72" height="72" />
+              <address class="address-text-container addres">
+                <p class="hero-tel-text">Call us now</p>
+                <div class="address-num-container">
+                  <a class="hero-tel-num" href="tel:4145672109">(414) 567 - 2109
+                  </a>
+                </div>
+              </address>
+            </div>
+          </div>
+          <img class="hero-img" src="./images/hero-section.svg" alt="The girl is cleaning" width="800" height="734" />
+        </div>
+      </div>
+    </section>
 
-          <nav>
-            <ul class="nav-list-container">
-              <li><a class="nav-item" href="#home">Home</a></li>
-              <li><a class="nav-item" href="#about">About</a></li>
-              <li><a class="nav-item" href="#services">Services</a></li>
-              <li><a class="nav-item" href="#pages">Pages</a></li>
-              <li><a class="nav-item" href="#contacts">Contact</a></li>
-            </ul>
-          </nav>
-          <div class="nav-btn">
-            <p class="nav-card card-gray">Cart (0)</p>
-            <button class="btn nav-btn" type="button">Get a free quote</button>
+    <!-- How our service works -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="service-container">
+          <h2 class="service-title">How our service works?</h2>
+          <p class="service-text">
+            Sagittis nibh scelerisque vitae eget vulputate sem elementum sed
+            neque nisi felis non ultrices massa id egestas quam velit pretium
+            nu.
+          </p>
+          <ul class="service-list">
+            <!-- Schedule online -->
+            <li class="service-item">
+              <img class="service-img" src="./images/service-schedule-online.svg" alt="Calendar" width="240"
+                height="240" />
+              <h3 class="service-sub-title">1. Schedule online</h3>
+              <p class="service-sub-text">
+                Sagittis nibh scelerisque vitae egetolment vulputate sem
+                elementum sed n.
+              </p>
+            </li>
+            <!-- Pay online easily -->
+            <li class="service-item">
+              <img class="service-img" src="./images/service-pay-online-easily.svg" alt="Cards" width="270"
+                height="240" />
+              <h3 class="service-sub-title">2. Pay online easily</h3>
+              <p class="service-sub-text">
+                Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida
+                amet at nunc.
+              </p>
+            </li>
+            <!-- Get your house cleaned -->
+            <li class="service-item">
+              <img class="service-img" src="./images/service-get-your-house-cleaned.svg"
+                alt="Vacuum cleaner and bucket with water" width="258" height="240" />
+              <h3 class="service-sub-title">3. Get your house cleaned</h3>
+              <p class="service-sub-text">
+                Nunc maecenas sollicitudin metus tellus mattis sed porttitor
+                cursus eleifend.
+              </p>
+            </li>
+          </ul>
+          <div class="service-btn">
+            <button class="btn service-btn" type="button">
+              Get a free quote
+            </button>
+            <button class="explore-service-btn" type="button">
+              Explore services
+            </button>
           </div>
         </div>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <!-- Hero section -->
-      <section id="home">
-        <div class="container">
-          <div class="hero-container">
-            <div class="hero-text">
-              <h1 class="hero-title">Quality cleaning for your home</h1>
-              <p class="hero-text">
-                Condimentum mauris sit cursus amet id non neque pharetra nulla
-                ornare sed facilisis senectus dapibus nibh ultrices eget
-                suscipit aliquet et nulla magna lacus penatibus.
-              </p>
-              <div class="address-container">
-                <button class="btn hero-btn" type="button">
-                  Get a free quote
-                </button>
-                <img
-                  src="./images/tel.svg"
-                  alt="telephone"
-                  width="72"
-                  height="72"
-                />
-                <address class="address-text-container addres">
-                  <p class="hero-tel-text">Call us now</p>
-                  <div class="address-num-container">
-                    <a class="hero-tel-num" href="tel:4145672109"
-                      >(414) 567 - 2109
-                    </a>
-                  </div>
-                </address>
+    <!-- Statistics -->
+    <section class="section">
+      <div class="container">
+        <div class="statisctic-container">
+          <h2 class="statistic-title">
+            Our cleaning services have no comparison
+          </h2>
+          <p class="statistic-text">
+            Lobortis mattis odio leo eget mauris met aliquet semper molestie
+            sollicitudin congue massa mauris lectus vitae cras viverra gravida
+            sapien.
+          </p>
+          <ul class="statistic-list">
+            <li class="statisctic-item">
+              <img src="./images/clients.svg" alt="Hearts" width="72" height="72" />
+              <div class="statistic-info">
+                <p class="statistic-desc">clients</p>
+                <span class="statistic-num">3,480+</span>
               </div>
-            </div>
-            <img
-              class="hero-img"
-              src="./images/hero-section.svg"
-              alt="The girl is cleaning"
-              width="800"
-              height="734"
-            />
-          </div>
+            </li>
+            <li class="statisctic-item">
+              <img src="./images/jobs-done.svg" alt="Check mark" width="72" height="72" />
+              <div class="statistic-info">
+                <p class="statistic-desc">Jobs done</p>
+                <span class="statistic-num">12,540+</span>
+              </div>
+            </li>
+            <li class="statisctic-item">
+              <img src="./images/employees.svg" alt="Peson" width="72" height="72" />
+              <div class="statistic-info">
+                <p class="statistic-desc">Employees</p>
+                <span class="statistic-num">100+</span>
+              </div>
+            </li>
+          </ul>
+          <img class="statistic-img" src="./images/play-video.svg" alt="Video of the cleaning process" width="1012"
+            height="570" />
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- How our service works -->
-      <section class="section" id="about">
-        <div class="container">
-          <div class="service-container">
-            <h2 class="service-title">How our service works?</h2>
-            <p class="service-text">
-              Sagittis nibh scelerisque vitae eget vulputate sem elementum sed
-              neque nisi felis non ultrices massa id egestas quam velit pretium
-              nu.
-            </p>
-            <ul class="service-list">
-              <!-- Schedule online -->
-              <li class="service-item">
-                <img
-                  class="service-img"
-                  src="./images/service-schedule-online.svg"
-                  alt="Calendar"
-                  width="240"
-                  height="240"
-                />
-                <h3 class="service-sub-title">1. Schedule online</h3>
-                <p class="service-sub-text">
-                  Sagittis nibh scelerisque vitae egetolment vulputate sem
-                  elementum sed n.
-                </p>
-              </li>
-              <!-- Pay online easily -->
-              <li class="service-item">
-                <img
-                  class="service-img"
-                  src="./images/service-pay-online-easily.svg"
-                  alt="Cards"
-                  width="270"
-                  height="240"
-                />
-                <h3 class="service-sub-title">2. Pay online easily</h3>
-                <p class="service-sub-text">
-                  Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida
-                  amet at nunc.
-                </p>
-              </li>
-              <!-- Get your house cleaned -->
-              <li class="service-item">
-                <img
-                  class="service-img"
-                  src="./images/service-get-your-house-cleaned.svg"
-                  alt="Vacuum cleaner and bucket with water"
-                  width="258"
-                  height="240"
-                />
-                <h3 class="service-sub-title">3. Get your house cleaned</h3>
-                <p class="service-sub-text">
-                  Nunc maecenas sollicitudin metus tellus mattis sed porttitor
-                  cursus eleifend.
-                </p>
-              </li>
-            </ul>
-            <div class="service-btn">
-              <button class="btn service-btn" type="button">
-                Get a free quote
-              </button>
-              <button class="explore-service-btn" type="button">
-                Explore services
-              </button>
-            </div>
+    <!-- Cleaning locations -->
+    <section class="section">
+      <div class="container">
+        <div class="location-container">
+          <div class="location-text">
+            <h3 class="location-title">
+              Take a look at our professional services
+            </h3>
+            <button class="explore-service-btn locations-btn" type="button">
+              Explore services
+            </button>
           </div>
+          <ul class="location-list">
+            <li class="location-item">
+              <img class="location-img" src="./images/house-cleaning.svg" alt="House cleaning" width="220"
+                height="190" />
+              <h3 class="location-sub-title">House cleaning</h3>
+              <p class="location-text">
+                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+                dalaracc lacus vel facilisis volutpat est.
+              </p>
+            </li>
+            <li class="location-item second-item">
+              <img class="location-img" src="./images/office-cleaning.svg" alt="Office cleaning" width="220"
+                height="224" />
+              <h3 class="location-sub-title">Office cleaning</h3>
+              <p class="location-text">
+                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+                dalaracc lacus vel facilisis volutpat est.
+              </p>
+            </li>
+            <li class="location-item">
+              <img class="location-img" src="./images/industrial-cleaning.svg" alt="Industrial cleaning" width="250"
+                height="200" />
+              <h3 class="location-sub-title">Industrial cleaning</h3>
+              <p class="location-text">
+                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+                dalaracc lacus vel facilisis volutpat est.
+              </p>
+            </li>
+          </ul>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Statistics -->
-      <section class="section">
-        <div class="container">
-          <div class="statisctic-container">
-            <h2 class="statistic-title">
-              Our cleaning services have no comparison
+    <!-- Covid-19 sanitization -->
+    <section class="section">
+      <div class="covid container">
+        <div class="covid-container">
+          <img class="covid-img" src="./images/clean-covid-19.svg" alt="Covid-19 sanitization" width="518"
+            height="676" />
+          <div class="covid-text">
+            <p class="covid-pre-text">Covid-19 sanitization</p>
+            <h2 class="covid-title">
+              We follow guidelines to keep you safe from the COVID-19 virus
             </h2>
-            <p class="statistic-text">
+            <p class="covid-text">
               Lobortis mattis odio leo eget mauris met aliquet semper molestie
-              sollicitudin congue massa mauris lectus vitae cras viverra gravida
-              sapien.
+              sollicitudin congue massa mauris lectus.
             </p>
-            <ul class="statistic-list">
-              <li class="statisctic-item">
-                <img
-                  src="./images/clients.svg"
-                  alt="Hearts"
-                  width="72"
-                  height="72"
-                />
-                <div class="statistic-info">
-                  <p class="statistic-desc">clients</p>
-                  <span class="statistic-num">3,480+</span>
-                </div>
-              </li>
-              <li class="statisctic-item">
-                <img
-                  src="./images/jobs-done.svg"
-                  alt="Check mark"
-                  width="72"
-                  height="72"
-                />
-                <div class="statistic-info">
-                  <p class="statistic-desc">Jobs done</p>
-                  <span class="statistic-num">12,540+</span>
-                </div>
-              </li>
-              <li class="statisctic-item">
-                <img
-                  src="./images/employees.svg"
-                  alt="Peson"
-                  width="72"
-                  height="72"
-                />
-                <div class="statistic-info">
-                  <p class="statistic-desc">Employees</p>
-                  <span class="statistic-num">100+</span>
-                </div>
-              </li>
-            </ul>
-            <img
-              class="statistic-img"
-              src="./images/play-video.svg"
-              alt="Video of the cleaning process"
-              width="1012"
-              height="570"
-            />
-          </div>
-        </div>
-      </section>
-
-      <!-- Cleaning locations -->
-      <section class="section">
-        <div class="container">
-          <div class="location-container">
-            <div class="location-text">
-              <h3 class="location-title">
-                Take a look at our professional services
-              </h3>
-              <button class="explore-service-btn locations-btn" type="button">
-                Explore services
-              </button>
-            </div>
-            <ul class="location-list">
-              <li class="location-item">
-                <img
-                  class="location-img"
-                  src="./images/house-cleaning.svg"
-                  alt="House cleaning"
-                  width="220"
-                  height="190"
-                />
-                <h3 class="location-sub-title">House cleaning</h3>
-                <p class="location-text">
-                  Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-                  dalaracc lacus vel facilisis volutpat est.
-                </p>
-              </li>
-              <li class="location-item second-item">
-                <img
-                  class="location-img"
-                  src="./images/office-cleaning.svg"
-                  alt="Office cleaning"
-                  width="220"
-                  height="224"
-                />
-                <h3 class="location-sub-title">Office cleaning</h3>
-                <p class="location-text">
-                  Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-                  dalaracc lacus vel facilisis volutpat est.
-                </p>
-              </li>
-              <li class="location-item">
-                <img
-                  class="location-img"
-                  src="./images/industrial-cleaning.svg"
-                  alt="Industrial cleaning"
-                  width="250"
-                  height="200"
-                />
-                <h3 class="location-sub-title">Industrial cleaning</h3>
-                <p class="location-text">
-                  Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-                  dalaracc lacus vel facilisis volutpat est.
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- Covid-19 sanitization -->
-      <section class="section">
-        <div class="covid container">
-          <div class="covid-container">
-            <img
-              class="covid-img"
-              src="./images/clean-covid-19.svg"
-              alt="Covid-19 sanitization"
-              width="518"
-              height="676"
-            />
-            <div class="covid-text">
-              <p class="covid-pre-text">Covid-19 sanitization</p>
-              <h2 class="covid-title">
-                We follow guidelines to keep you safe from the COVID-19 virus
-              </h2>
-              <p class="covid-text">
-                Lobortis mattis odio leo eget mauris met aliquet semper molestie
-                sollicitudin congue massa mauris lectus.
-              </p>
-              <div class="address-container">
-                <button class="btn covid-btn">Get a free quote</button>
-                <img
-                  src="./images/tel.svg"
-                  alt="telephone"
-                  width="72"
-                  height="72"
-                />
-                <address class="addres">
-                  <p class="contact-text">Call us now</p>
-                  <a class="contact-tel" href="tel:4145672109"
-                    >(414) 567 - 2109
-                  </a>
-                </address>
-              </div>
+            <div class="address-container">
+              <button class="btn covid-btn">Get a free quote</button>
+              <img src="./images/tel.svg" alt="telephone" width="72" height="72" />
+              <address class="addres">
+                <p class="contact-text">Call us now</p>
+                <a class="contact-tel" href="tel:4145672109">(414) 567 - 2109
+                </a>
+              </address>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Cleaning areas of the room -->
-      <section class="section" id="services">
-        <div class="container">
-          <div class="areas-container">
-            <img
-              src="./images/house-rooms.svg"
-              alt="House"
-              width="640"
-              height="680"
-            />
-            <div class="areas-text-container">
-              <h2 class="areas-title">
-                We cover all areas of your home or office
-              </h2>
-              <p class="areas-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
+    <!-- Cleaning areas of the room -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="areas-container">
+          <img src="./images/house-rooms.svg" alt="House" width="640" height="680" />
+          <div class="areas-text-container">
+            <h2 class="areas-title">
+              We cover all areas of your home or office
+            </h2>
+            <p class="areas-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+            <ul class="areas-list">
+              <li class="areas-rooms">
+                <img class="areas-rooms" src="./images/check-mark.svg" alt="Check mark" width="26"
+                  height="26" />Bathrooms
+              </li>
+              <li class="areas-rooms">
+                <img src="./images/check-mark.svg" alt="Check mark" width="26" height="26" />Kitchens
+              </li>
+              <li class="areas-rooms">
+                <img src="./images/check-mark.svg" alt="Check mark" width="26" height="26" />Living Rooms
+              </li>
+              <li class="areas-rooms">
+                <img src="./images/check-mark.svg" alt="Check mark" width="26" height="26" />Carpets
+              </li>
+              <li class="areas-rooms">
+                <img src="./images/check-mark.svg" alt="Check mark" width="26" height="26" />Bedrooms
+              </li>
+              <li class="areas-rooms">
+                <img src="./images/check-mark.svg" alt="Check mark" width="26" height="26" />Offices
+              </li>
+              <li class="areas-rooms">
+                <img src="./images/check-mark.svg" alt="Check mark" width="26" height="26" />Businesses
+              </li>
+              <li class="areas-rooms">
+                <img src="./images/check-mark.svg" alt="Check mark" width="26" height="26" />Windows
+              </li>
+            </ul>
+            <button class="btn areas-btn" type="button">
+              Get a free quote
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our differences -->
+    <section class="section">
+      <div class="container">
+        <div class="differencec-container">
+          <div class="differences-text">
+            <h2 class="differences-title">What makes us different?</h2>
+            <p class="differences-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+            <p class="differences-sub-text">
+              Sed ut perspiciatis unde omnis iste natus error sit atem
+              accusantium doloremque laudantiu sed ut.
+            </p>
+            <ul class="diff-num-container">
+              <li>
+                <span class="differences-num">10</span><span class="differences-plus">+</span>
+                <p class="differences-desc">Years</p>
+              </li>
+              <li>
+                <span class="differences-num">5k</span><span class="differences-plus">+</span>
+                <p class="differences-desc">Clients</p>
+              </li>
+              <li>
+                <span class="differences-num">20k</span><span class="differences-plus">+</span>
+                <p class="differences-desc">Jobs done</p>
+              </li>
+            </ul>
+            <button class="btn differences-btn" type="button">
+              Get a free quote
+            </button>
+          </div>
+          <img src="./images/our-differences.svg" alt="A guy cleans the floor" width="686" height="589" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles & resources -->
+    <section class="section" id="pages">
+      <div class="container">
+        <div class="articles-container">
+          <div class="articles-text-btn">
+            <div class="articles-text">
+              <h2 class="article-title">Articles and resources</h2>
+              <p class="articles-text">
+                Lobortis mattis odio leo eget mauris met aliquet semper
+                molestie sollicitudin congue massa mauris lectus.
               </p>
-              <ul class="areas-list">
-                <li class="areas-rooms">
-                  <img
-                    class="areas-rooms"
-                    src="./images/check-mark.svg"
-                    alt="Check mark"
-                    width="26"
-                    height="26"
-                  />Bathrooms
-                </li>
-                <li class="areas-rooms">
-                  <img
-                    src="./images/check-mark.svg"
-                    alt="Check mark"
-                    width="26"
-                    height="26"
-                  />Kitchens
-                </li>
-                <li class="areas-rooms">
-                  <img
-                    src="./images/check-mark.svg"
-                    alt="Check mark"
-                    width="26"
-                    height="26"
-                  />Living Rooms
-                </li>
-                <li class="areas-rooms">
-                  <img
-                    src="./images/check-mark.svg"
-                    alt="Check mark"
-                    width="26"
-                    height="26"
-                  />Carpets
-                </li>
-                <li class="areas-rooms">
-                  <img
-                    src="./images/check-mark.svg"
-                    alt="Check mark"
-                    width="26"
-                    height="26"
-                  />Bedrooms
-                </li>
-                <li class="areas-rooms">
-                  <img
-                    src="./images/check-mark.svg"
-                    alt="Check mark"
-                    width="26"
-                    height="26"
-                  />Offices
-                </li>
-                <li class="areas-rooms">
-                  <img
-                    src="./images/check-mark.svg"
-                    alt="Check mark"
-                    width="26"
-                    height="26"
-                  />Businesses
-                </li>
-                <li class="areas-rooms">
-                  <img
-                    src="./images/check-mark.svg"
-                    alt="Check mark"
-                    width="26"
-                    height="26"
-                  />Windows
-                </li>
-              </ul>
-              <button class="btn areas-btn" type="button">
+            </div>
+            <div class="articles-btn">
+              <button class="btn article-btn" type="button">
                 Get a free quote
               </button>
+              <button class="brows-btn" type="button">Browse articles</button>
             </div>
           </div>
-        </div>
-      </section>
-
-      <!-- Our differences -->
-      <section class="section">
-        <div class="container">
-          <div class="differencec-container">
-            <div class="differences-text">
-              <h2 class="differences-title">What makes us different?</h2>
-              <p class="differences-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
-              </p>
-              <p class="differences-sub-text">
-                Sed ut perspiciatis unde omnis iste natus error sit atem
-                accusantium doloremque laudantiu sed ut.
-              </p>
-              <ul class="diff-num-container">
-                <li>
-                  <span class="differences-num">10</span
-                  ><span class="differences-plus">+</span>
-                  <p class="differences-desc">Years</p>
-                </li>
-                <li>
-                  <span class="differences-num">5k</span
-                  ><span class="differences-plus">+</span>
-                  <p class="differences-desc">Clients</p>
-                </li>
-                <li>
-                  <span class="differences-num">20k</span
-                  ><span class="differences-plus">+</span>
-                  <p class="differences-desc">Jobs done</p>
-                </li>
-              </ul>
-              <button class="btn differences-btn" type="button">
-                Get a free quote
-              </button>
-            </div>
-            <img
-              src="./images/our-differences.svg"
-              alt="A guy cleans the floor"
-              width="686"
-              height="589"
-            />
-          </div>
-        </div>
-      </section>
-
-      <!-- Articles & resources -->
-      <section class="section" id="pages">
-        <div class="container">
-          <div class="articles-container">
-            <div class="articles-text-btn">
-              <div class="articles-text">
-                <h2 class="article-title">Articles and resources</h2>
-                <p class="articles-text">
-                  Lobortis mattis odio leo eget mauris met aliquet semper
-                  molestie sollicitudin congue massa mauris lectus.
-                </p>
-              </div>
-              <div class="articles-btn">
-                <button class="btn article-btn" type="button">
-                  Get a free quote
-                </button>
-                <button class="brows-btn" type="button">Browse articles</button>
-              </div>
-            </div>
-            <ul class="articles-list">
-              <li class="articles-item">
-                <img
-                  src="./images/article-vacuum-cleaners.svg"
-                  alt="Vacuum cleaner"
-                  width="596"
-                  height="366"
-                />
-                <div class="sub-text-container">
-                  <article class="bgc">
-                    <h3 class="article-sub-title">
-                      8 best vacuum cleaners to clean any mess for your home in
-                      2022
-                    </h3>
-                    <p class="articles-sub-text">
-                      Lorem ipsum dolor sit amet conse ctetur adip iscing elit
-                      justo quis odio sit sit ac port titor sit males.
-                    </p>
-                    <div class="articles-date">
-                      <p class="article-date">Jan 28, 2022</p>
-                      <img
-                        src="./images/rectangle.svg"
-                        alt="Rectangle"
-                        width="50"
-                        height="50"
-                      />
-                    </div>
-                  </article>
-                </div>
-              </li>
-              <li class="articles-item">
-                <img
-                  src="./images/article-disinfect-electronics.svg"
-                  alt="A girl disinfects the phone"
-                  width="596"
-                  height="366"
-                />
-                <div class="sub-text-container">
-                  <article class="bgc">
-                    <h3 class="article-sub-title">
-                      How to properly disinfect your phone and other electronics
-                    </h3>
-                    <p class="articles-sub-text">
-                      Lorem ipsum dolor sit amet conse ctetur adip iscing elit
-                      justo quis odio sit sit ac port titor sit males.
-                    </p>
-                    <div class="articles-date">
-                      <p class="article-date">Feb 1, 2022</p>
-                      <img
-                        src="./images/rectangle.svg"
-                        alt="Rectangle"
-                        width="50"
-                        height="50"
-                      />
-                    </div>
-                  </article>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- Order -->
-      <section class="order-bgc section">
-        <div class="container">
-          <div class="order-container">
-            <div class="order-text-container">
-              <h2 class="order-title">Request a free cleaning quote today</h2>
-              <p class="order-text">
-                In dignissim euismod pretium amet enim a eu nam ut urna accumsan
-                pellentesque lacus duis pharetra eutortor.
-              </p>
-              <div class="address-container">
-                <img
-                  src="./images/tel.svg"
-                  alt="telephone"
-                  width="72"
-                  height="72"
-                />
-                <address>
-                  <p class="order-address-text">Call us now</p>
-                  <a class="order-address-tel" href="tel:4145672109"
-                    >(414) 567 - 2109
-                  </a>
-                </address>
-              </div>
-              <h3 class="order-sub-title">Not convinced yet?</h3>
-              <p class="order-sub-text">
-                Massa bibendum consectetur maurisid gravida purus, dolor dui
-                amet morbi non nunc urna purus diam.
-              </p>
-              <button class="order-brows-btn" type="button">
-                Browse our packages
-              </button>
-            </div>
-            <div class="order-form-container">
-              <form class="order-form-bgc">
-                <label class="order-form-text" for="name"
-                  >Full name
-                  <input class="order-from-field" type="text" id="name" />
-                </label>
-                <label class="order-form-text" for="phone"
-                  >Phone number
-                  <input class="order-from-field" type="number" id="phone" />
-                </label>
-                <label class="order-form-text" for="address"
-                  >Address
-                  <input class="order-from-field" type="text" id="address" />
-                </label>
-                <label class="order-form-text" for="email"
-                  >Email
-                  <input class="order-from-field" type="email" id="email" />
-                </label>
-                <label class="order-form-text" for="request"
-                  >Requested service
-                  <input class="order-from-field" type="text" id="request" />
-                </label>
-                <label class="order-form-text" for="date"
-                  >Day of service
-                  <input class="order-from-field" type="date" id="date" />
-                </label>
-                <label class="order-form-text" for="note"
-                  >Add a note
-                  <input class="order-from-field" type="text" id="note" />
-                </label>
-                <button class="btn order-form-btn" type="submit">
-                  Submit message
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-
-    <!-- Contacts -->
-    <footer id="contacts">
-      <section class="section">
-        <div class="container">
-          <div class="contacts-container">
-            <h2 hidden>Contacts</h2>
-            <!-- Social media -->
-            <article class="social-media-container">
-              <h2 class="footer-title">Quality cleaning for your home</h2>
-              <p class="footer-text">
-                Lorem ipsum dolor sit amet cteturdo adipiscing elit, sed do
-                eiusmo.
-              </p>
-              <img src="./images/social-media.svg" alt=" Social Media Icon" />
-              <img src="./images/social-media.svg" alt=" Social Media Icon" />
-              <img src="./images/social-media.svg" alt=" Social Media Icon" />
-              <img src="./images/social-media.svg" alt=" Social Media Icon" />
-              <img src="./images/social-media.svg" alt=" Social Media Icon" />
-            </article>
-            <!-- Address -->
-            <article>
-              <div class="footer-address-container">
-                <h3 class="contacts-title">Contact us</h3>
-                <address>
-                  <p class="address">
-                    1827 Nickel Road, Los Angeles, CA, 90017, United States
+          <ul class="articles-list">
+            <li class="articles-item">
+              <img src="./images/article-vacuum-cleaners.svg" alt="Vacuum cleaner" width="596" height="366" />
+              <div class="sub-text-container">
+                <article class="bgc">
+                  <h3 class="article-sub-title">
+                    8 best vacuum cleaners to clean any mess for your home in
+                    2022
+                  </h3>
+                  <p class="articles-sub-text">
+                    Lorem ipsum dolor sit amet conse ctetur adip iscing elit
+                    justo quis odio sit sit ac port titor sit males.
                   </p>
-                  <a class="contacts-link" href="tel:4145672109"
-                    >(414) 567 - 2109</a
-                  >
-                  <a class="contacts-link" href="mailto:contact@cleaning.com"
-                    >contact@cleaning.com</a
-                  >
-                </address>
+                  <div class="articles-date">
+                    <p class="article-date">Jan 28, 2022</p>
+                    <img src="./images/rectangle.svg" alt="Rectangle" width="50" height="50" />
+                  </div>
+                </article>
               </div>
-            </article>
-            <!-- Hours -->
-            <article class="hours-container">
-              <h3 class="contacts-title">Hours</h3>
-              <p class="hours-day">Monday to Friday</p>
-              <p class="hours">6:00 AM - 9:00 PM</p>
-              <p class="hours-day">Saturday and Sunday</p>
-              <p class="hours">8:00 AM - 8:00 PM</p>
-            </article>
-            <!-- Order -->
-            <article class="footer-tel-container">
-              <h3 class="contacts-title">Get a free estimate</h3>
-              <a class="tel" href="tel:4145672109">(414) 567 - 2109</a>
-              <p class="footer-text">
-                Lorem ipsum dolor sit amet ectetur adipiscing elit, sed do
-                eiusmod.
-              </p>
-              <button class="btn footer-btn" type="button">
-                Request a free quote
-              </button>
-            </article>
-          </div>
+            </li>
+            <li class="articles-item">
+              <img src="./images/article-disinfect-electronics.svg" alt="A girl disinfects the phone" width="596"
+                height="366" />
+              <div class="sub-text-container">
+                <article class="bgc">
+                  <h3 class="article-sub-title">
+                    How to properly disinfect your phone and other electronics
+                  </h3>
+                  <p class="articles-sub-text">
+                    Lorem ipsum dolor sit amet conse ctetur adip iscing elit
+                    justo quis odio sit sit ac port titor sit males.
+                  </p>
+                  <div class="articles-date">
+                    <p class="article-date">Feb 1, 2022</p>
+                    <img src="./images/rectangle.svg" alt="Rectangle" width="50" height="50" />
+                  </div>
+                </article>
+              </div>
+            </li>
+          </ul>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section>
-        <div class="container">
-          <div class="linces-container">
-            <h2 hidden>Licenses</h2>
-            <a href="./index.html">
-              <img
-                src="./images/logo.svg"
-                alt="Logo Cleaning X"
-                width="172"
-                height="42"
-              />
-            </a>
-            <ul class="linces-list">
-              <li class="licenses-text">Copyright &copy; Cleaning X |</li>
-              <li class="licenses-text">
-                Designed by
-                <a class="licenses-link" href="#">BRIX Templates </a>|
-              </li>
-              <li class="licenses-text">
-                Powered by <a class="licenses-link" href="#">Webflow </a>|
-              </li>
-              <li><a class="licenses-link" href="#">Licenses </a></li>
-            </ul>
+    <!-- Order -->
+    <section class="order-bgc section" id="contacts">
+      <div class="container">
+        <div class="order-container">
+          <div class="order-text-container">
+            <h2 class="order-title">Request a free cleaning quote today</h2>
+            <p class="order-text">
+              In dignissim euismod pretium amet enim a eu nam ut urna accumsan
+              pellentesque lacus duis pharetra eutortor.
+            </p>
+            <div class="address-container">
+              <img src="./images/tel.svg" alt="telephone" width="72" height="72" />
+              <address>
+                <p class="order-address-text">Call us now</p>
+                <a class="order-address-tel" href="tel:4145672109">(414) 567 - 2109
+                </a>
+              </address>
+            </div>
+            <h3 class="order-sub-title">Not convinced yet?</h3>
+            <p class="order-sub-text">
+              Massa bibendum consectetur maurisid gravida purus, dolor dui
+              amet morbi non nunc urna purus diam.
+            </p>
+            <button class="order-brows-btn" type="button">
+              Browse our packages
+            </button>
+          </div>
+          <div class="order-form-container">
+
+            <!-- Form -->
+            <form class="order-form-bgc" name="order-form">
+
+              <div class="form-group">
+                <div class="form-block">
+                  <label class="order-form-label" for="name">Full name</label>
+                  <input class="order-form-input" type="text" id="name" />
+                </div>
+
+                <div class="form-block">
+                  <label class="order-form-label" for="tel">Phone number</label>
+                  <input class="order-form-input" type="tel" id="tel" />
+                </div>
+              </div>
+
+
+              <div class="form-group">
+                <div class="form-block">
+                  <label class="order-form-label" for="address">Address</label>
+                  <input class="order-form-input" type="text" id="address" />
+                </div>
+
+                <div class="form-block">
+                  <label class="order-form-label" for="email">Email</label>
+                  <input class="order-form-input" type="email" id="email" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="form-block">
+                  <label class="order-form-label" for="request">Requested service</label>
+                  <input class="order-form-input" type="text" id="request" />
+                </div>
+
+                <div class="form-block">
+                  <label class="order-form-label" for="date">Day of service</label>
+                  <input class="order-form-input" type="datetime-local" id="date" />
+                </div>
+              </div>
+
+              <div class="full-width">
+                <div class="form-block">
+                  <label class="order-form-label" for="note">Add a note</label>
+                  <textarea name="note" id="note"></textarea>
+                </div>
+              </div>
+
+              <button class="btn order-form-btn" type="submit">Submit message</button>
+            </form>
+
           </div>
         </div>
-      </section>
-    </footer>
-  </body>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+
+  <!-- Contacts -->
+  <footer>
+    <section class="section">
+      <div class="container">
+        <div class="contacts-container">
+          <h2 hidden>Contacts</h2>
+          <!-- Social media -->
+          <article class="social-media-container">
+            <h2 class="footer-title">Quality cleaning for your home</h2>
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet cteturdo adipiscing elit, sed do
+              eiusmo.
+            </p>
+            <img src="./images/social-media.svg" alt=" Social Media Icon" />
+            <img src="./images/social-media.svg" alt=" Social Media Icon" />
+            <img src="./images/social-media.svg" alt=" Social Media Icon" />
+            <img src="./images/social-media.svg" alt=" Social Media Icon" />
+            <img src="./images/social-media.svg" alt=" Social Media Icon" />
+          </article>
+          <!-- Address -->
+          <article>
+            <div class="footer-address-container">
+              <h3 class="contacts-title">Contact us</h3>
+              <address>
+                <p class="address">
+                  1827 Nickel Road, Los Angeles, CA, 90017, United States
+                </p>
+                <a class="contacts-link" href="tel:4145672109">(414) 567 - 2109</a>
+                <a class="contacts-link" href="mailto:contact@cleaning.com">contact@cleaning.com</a>
+              </address>
+            </div>
+          </article>
+          <!-- Hours -->
+          <article class="hours-container">
+            <h3 class="contacts-title">Hours</h3>
+            <p class="hours-day">Monday to Friday</p>
+            <p class="hours">6:00 AM - 9:00 PM</p>
+            <p class="hours-day">Saturday and Sunday</p>
+            <p class="hours">8:00 AM - 8:00 PM</p>
+          </article>
+          <!-- Order -->
+          <article class="footer-tel-container">
+            <h3 class="contacts-title">Get a free estimate</h3>
+            <a class="tel" href="tel:4145672109">(414) 567 - 2109</a>
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet ectetur adipiscing elit, sed do
+              eiusmod.
+            </p>
+            <button class="btn footer-btn" type="button">
+              Request a free quote
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="linces-container">
+          <h2 hidden>Licenses</h2>
+          <a href="./index.html">
+            <img src="./images/logo.svg" alt="Logo Cleaning X" width="172" height="42" />
+          </a>
+          <ul class="linces-list">
+            <li class="licenses-text">Copyright &copy; Cleaning X |</li>
+            <li class="licenses-text">
+              Designed by
+              <a class="licenses-link" href="#">BRIX Templates </a>|
+            </li>
+            <li class="licenses-text">
+              Powered by <a class="licenses-link" href="#">Webflow </a>|
+            </li>
+            <li><a class="licenses-link" href="#">Licenses </a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </footer>
+</body>
+
 </html>
